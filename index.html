@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Canvas</title>
+</head>
+
+<body>
+    <img id="imageFile" src="" width="100" />
+    <section>
+        <div class="leftPanel">
+            <div class="row">
+                <div class="component" onclick="cosoleImage()">
+                sub
+            </div>
+                
+                <div class="addimage" >
+                    <label for="uploadImg">add</label>
+                    <input type="file" class="image" id="uploadImg" onchange="loadFile(event)"/>
+            
+                </div>
+                <div class="component" onclick="cosoleImage()">
+                    mul
+                </div>
+                <div class="component" onclick="cosoleImage()">
+                    div
+                </div>
+            </div>
+            <div class="row">
+                <div class="component" onclick="cosoleImage()">fact</div>
+            </div>
+        </div>
+        <div class="explore_area">
+            <canvas class="myCanvas" id="myCanvash" width="600" height="600"></canvas>
+        </div>
+    </section>
+
+    <!-- scripts -->
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
