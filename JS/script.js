@@ -23,3 +23,19 @@ const loadFile=(e)=>{
 const cosoleImage=()=>{
     console.log(componentListCanvas);
 }
+const mul=()=>{
+    const UploadedImage=componentListCanvas[componentListCanvas.length-1];
+    console.log(UploadedImage);
+}
+const div=()=>{
+    const UploadedImage=componentListCanvas[componentListCanvas.length-1];
+    console.log(UploadedImage);
+}
+const sub=()=>{
+    const UploadedImage=componentListCanvas[componentListCanvas.length-1];
+    console.log(UploadedImage);
+}
+const fact=()=>{
+    const UploadedImage=componentListCanvas[componentListCanvas.length-1];
+    console.log(UploadedImage);
+}
